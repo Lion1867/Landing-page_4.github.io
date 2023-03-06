@@ -11,7 +11,7 @@ background-color: rgb(240, 240, 240);}
 .main3, .main5, .main9, .main10 {color:rgb(255, 255, 255);
 background-color:black;}
 .main7, .main8 {background-color: rgb(255, 255, 255);}
-.main2 img {width: 85%; height: 100%;}
+.main2 img {width: 100%; height: auto;}
 .main6 img {width: 100%; height: auto;}
 .main7 img {width: 100%;  height: auto;}
 .header{ display: flex;
@@ -21,9 +21,15 @@ background-color:black;}
     padding-bottom: 40px;
     text-align: center;
     font-size: 40px;}
-.main1, .main5, .main9, .main10 {display: flex; flex-direction: column; text-align: center; align-items: center; justify-content: center; }
+.main1,.main2, .main5,.main7,.main8, .main9, .main10 {display: flex; flex-direction: column; text-align: center; align-items: center; justify-content: center; }
 .form1 {font-size:30px; padding: 10px;}
 .form2 {font-size:15px; padding: 10px;}
 .form3 {font-size:10px; padding-top: 25px; padding-bottom: 10px;}
-.form4 {font-size:10px; text-transform: uppercase; border-color:black; border-style: solid; border-width: 2px; padding: 7px; padding-left: 25px; padding-right: 25px;}
-.main2 {padding-bottom: 25px;  padding-left: 10px;}
+.form4 {margin: 15px; font-size:10px; text-transform: uppercase; color: rgb(148, 148, 148); border-color:rgb(148, 148, 148); border-style: solid; border-width: 2px; padding: 7px; padding-left: 25px; padding-right: 25px;}
+.main2, .main7 {padding: 15px;}
+.form5 {font-size:15px; padding: 6px; padding-top: 30px;}
+.form6 {font-size:22px; padding: 6px; padding-bottom: 25px;}
+.form7 {font-size:10px; padding: 6px; padding-top: 70px;}
+.form8 {font-size:15px; padding: 6px; padding-bottom: 70px;}
+.form9 {font-size:22px; padding: 6px; padding-top: 70px;}
+.form10 {font-size:10px; padding: 6px; padding-bottom: 70px; color: rgb(148, 148, 148);}
