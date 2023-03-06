@@ -33,3 +33,15 @@ background-color:black;}
 .form8 {font-size:15px; padding: 6px; padding-bottom: 70px;}
 .form9 {font-size:22px; padding: 6px; padding-top: 70px;}
 .form10 {font-size:10px; padding: 6px; padding-bottom: 70px; color: rgb(148, 148, 148);}
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
