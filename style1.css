@@ -18,7 +18,7 @@ background-color:black;}
     flex-direction: row;
     justify-content: center;
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 40px;}
 .main1,.main2, .main5,.main7,.main8, .main9, .main10 {display: flex; flex-direction: column; text-align: center; align-items: center; justify-content: center; }
@@ -93,3 +93,10 @@ html{
       .par1, .par2, .par3  {display: flex; flex-direction: column; text-align: center; align-items: center; justify-content: center; width: 100%; height: auto;}
       .form17 {width: 93%; padding-left: 0px; padding-right: 0px;}
       }
+@font-face {
+        font-family: Font;
+        src: url(tupo-vyaz_regular.ttf);
+    }
+.header {
+        font-family: Font;
+    }    
